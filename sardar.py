@@ -61,16 +61,16 @@ banner = """
 \033[1;96m |_____\___\_\_|  \_\/_/    \_\
                                
 \033[1;91m-----------------------------------------------
-\033[1;92m❤ OWNER   👉 IQRA SARDAR
-\033[1;92m❤ Github  👉 https://github.com/iqra-sardar
-\033[1;92m❤ GANG    👉 BALOCH KILLER GANG
-\033[1;92m❤ Youtube 👉 SUBSCRIBE CHANNEL
+\033[1;92m🇵🇰 OWNER   👉 IQRA SARDAR
+\033[1;92m🇵🇰 Github  👉 https://github.com/iqra-sardar
+\033[1;92m🇵🇰 GANG    👉 BALOCH KILLER GANG
+\033[1;92m🇵🇰 Youtube 👉 SUBSCRIBE CHANNEL
 \033[1;91m-----------------------------------------------"""
 # titik #
 def tik():
 	titik = [".   ","..  ","... "]
 	for o in titik:
-		print("\r[✔] Logging In "+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[✔] Logging In "+o),;sys.stdout.flush();time.sleep(1)
 
 back = 0
 id = []
@@ -92,8 +92,8 @@ def tlogin():
 	if passw =="iqra":
 	    os.system('clear')
 	    print banner
-	    print "[✓]\033[1;92m USERNAME: " +username+ " (correct)"
-	    print "[✓]\033[1;92m PASSWORD: " +passw+ "  (correct)"
+	    print "\033[1;92m[✓] USERNAME: " +username+ " (correct)"
+	    print "[✓] PASSWORD: " +passw+ "  (correct)"
 	    time.sleep(2)
 	else:
 	    print "[!] Invalid Password."
@@ -135,7 +135,6 @@ def methodlogin():
 		hopa.close()
 		print "\n[✓] Logged In Successfully."
 		time.sleep(1)
-		os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
 		os.system('python2 iqra.py')
 	
 	elif hos =="3":
@@ -169,8 +168,7 @@ def login():
 		    st.write(z["access_token"])
 		    st.close()
 		    print "\n[✓] Logged In Successfully."
-		    time.sleep(1)
-		    os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+		    time.sleep(1)h
 		    os.system("clear")
 		    os.system("python2 iqra.py")
 		else:
