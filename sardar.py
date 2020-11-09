@@ -168,7 +168,7 @@ def login():
 		    st.write(z["access_token"])
 		    st.close()
 		    print "\n[✓] Logged In Successfully."
-		    time.sleep(1)h
+		    time.sleep(1)
 		    os.system("clear")
 		    os.system("python2 iqra.py")
 		else:
