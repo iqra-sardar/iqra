@@ -66,10 +66,10 @@ banner = """
 \033[1;96m |_____\___\_\_|  \_\/_/    \_\
                                
 \033[1;91m-----------------------------------------------
-\033[1;92m➣ OWNER   : IQRA SARDAR
-\033[1;92m➣ Github  : https://github.com/iqra-sardar
-\033[1;92m➣ GANG    : BALOCH KILLER GANG
-\033[1;92m➣ Youtube : SUBSCRIBE CHANNEL
+\033[1;92m❤ OWNER   👉 IQRA SARDAR
+\033[1;92m❤ Github  👉 https://github.com/iqra-sardar
+\033[1;92m❤ GANG    👉 BALOCH KILLER GANG
+\033[1;92m❤ Youtube 👉 SUBSCRIBE CHANNEL
 \033[1;91m-----------------------------------------------"""
 # titik #
 def tik():
