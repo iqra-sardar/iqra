@@ -13,7 +13,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 jam.py')
+    os.system('python2 sardar.py')
 
 #Browser Setting
 reload(sys)
@@ -61,11 +61,10 @@ banner = """
 \033[1;96m\_|  |_/\___/\____/\_| \_/\_| |_/\_| \_/
                                                 
 \033[1;91m-----------------------------------------------
-\033[1;92m➣ OWNER   : JAM SHAHRUKH X MUSKAN NOOR
-\033[1;92m➣ Github  : https://github.com/muskanckg
-\033[1;92m➣ GANG    : CRAZY KING GANG
-\033[1;92m➣ Youtube : JAM SHAHRUKH TECHNICAL
-\033[1;92m➣ WhatsApp: +923053176060
+\033[1;92m➣ OWNER   : IQRA SARDAR
+\033[1;92m➣ Github  : https://github.com/iqra-sardar
+\033[1;92m➣ GANG    : BALOCH KILLER GANG
+\033[1;92m➣ Youtube : SUBSCRIBE CHANNEL
 \033[1;91m-----------------------------------------------"""
 # titik #
 def tik():
@@ -80,7 +79,7 @@ def tlogin():
 	os.system('clear')
 	print banner
 	username = raw_input("[+] TOOL USERNAME: ")
-	if username =="jam":
+	if username =="iqra":
 	    os.system('clear')
 	    print banner
 	    print "[✓] TOOL USERNAME: "+username+ " (correct)"
@@ -90,7 +89,7 @@ def tlogin():
 	    tlogin()
 	    
 	passw = raw_input("[+] TOOL PASSWORD: ")
-	if passw =="muskan":
+	if passw =="iqra":
 	    os.system('clear')
 	    print banner
 	    print "[✓] TOOL USERNAME: " +username+ " (correct)"
@@ -102,7 +101,7 @@ def tlogin():
 	    tlogin()
 	try:
 		toket = open('login.txt','r')
-		os.system('python2 muskan.py')
+		os.system('python2 iqra.py')
 	except (KeyError,IOError):
 		methodlogin()
 	else:
@@ -137,7 +136,7 @@ def methodlogin():
 		print "\n[✓] Logged In Successfully."
 		time.sleep(1)
 		os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
-		os.system('python2 muskan.py')
+		os.system('python2 iqra.py')
 	
 	elif hos =="3":
 		os.system('clear')
@@ -152,11 +151,11 @@ def login():
 	os.system("clear")
 	try:
 		tb=open('login.txt', 'r')
-		os.system("python2 muskan.py")
+		os.system("python2 iqra.py")
 	except (KeyError,IOError):
 		os.system("clear")
 		print (banner)
-		hamza('[!] JAM X MUSKAN BRAND')
+		hamza('[!] IQRA SARDAR BRAND')
 		hamza('[!] Use a New Facebook Account To Login')
 		print'-------------------------------------'
 		iid=raw_input('[+] Number/Email: ')
@@ -173,7 +172,7 @@ def login():
 		    time.sleep(1)
 		    os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
 		    os.system("clear")
-		    os.system("python2 muskan.py")
+		    os.system("python2 iqra.py")
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
 		        print ('[!] User Must Verify Account Before Login.')
