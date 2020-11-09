@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding=utf-8
-# Originally Written By:Muhammad Hamza
+# Originally Written By:Jam Shahrukh
 # Source : Python2"
 # Donot Recode It. 
 
@@ -13,7 +13,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 jam.py')
+    os.system('python2 sardar.py')
 
 #Browser Setting
 reload(sys)
@@ -58,19 +58,19 @@ def hopss(z):
 		time.sleep(0.1)
 ##### LOGO #####
 banner = """
-\033[1;92m___  ____   _ _____ _   __  ___   _   _ 
-\033[1;92m|  \/  | | | /  ___| | / / / _ \ | \ | |
-\033[1;92m| .  . | | | \ `--.| |/ / / /_\ \|  \| |
-\033[1;92m| |\/| | | | |`--. \    \ |  _  || . ` |
-\033[1;92m| |  | | |_| /\__/ / |\  \| | | || |\  |
-\033[1;92m\_|  |_/\___/\____/\_| \_/\_| |_/\_| \_/                                               
-\033[1;97m-----------------------------------------------
-\033[1;91m➣ OWNER   : JAM SHAHRUKH X MUSKAN NOOR
-\033[1;91m➣ Github  : https://github.com/muskanckg
-\033[1;91m➣ GANG    : CRAZY KING GANG
-\033[1;91m➣ Youtube : JAM SHAHRUKH TECHNICAL
-\033[1;91m➣ WhatsApp: +923053176060
-\033[1;97m-----------------------------------------------"""
+\033[1;96m  _____ ____  _____   \033[1;94mSARDAR
+\033[1;96m |_   _/ __ \|  __ \     /\    
+\033[1;96m   | || |  | | |__) |   /  \   
+\033[1;96m   | || |  | |  _  /   / /\ \  
+\033[1;96m  _| || |__| | | \ \  / ____ \ 
+\033[1;96m |_____\___\_\_|  \_\/_/    \_\
+                               
+\033[1;91m-----------------------------------------------
+\033[1;92m➣ OWNER   : IQRA SARDAR
+\033[1;92m➣ Github  : https://github.com/iqra-sardar
+\033[1;92m➣ GANG    : BALOCH KILLER GANG
+\033[1;92m➣ Youtube : SUBSCRIBE CHANNEL
+\033[1;91m-----------------------------------------------"""
 # titik #
 def tik():
 	titik = [".   ","..  ","... "]
@@ -98,7 +98,7 @@ def menu():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 sardar.py')
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
@@ -109,11 +109,11 @@ def menu():
 		print"[!] Account Is On Checkpoint"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 sardar.py')
 	except requests.exceptions.ConnectionError:
 		print"[!] No Connection"
 		time.sleep(1)
-		('python2 jam.py')
+		('python2 sardar.py')
 	os.system("clear")
 	print banner
 	print "|[✓] Name: "+name
@@ -123,7 +123,7 @@ def menu():
 	print "[2] Clone With Pass Choice."
 	print "[3] Grabbing Tools."
 	print "[4] Auto Del Tools."
-	print "[5] Update jam Tool."
+	print "[5] Update iqra Tool."
 	print "[6] Follow Me On Facebook."
 	print "[7] Logout"
 	print ('                  ')
@@ -139,12 +139,12 @@ def men():
 	elif rana =="2":
 	    os.system('clear')
 	    hamza('[!] Please Wait While Page Is Loding.')
-	    hopss('CKG-10%...')
-	    hopss('CKG-20%...')
-	    hopss('CKG-50%...')
-	    hopss('CKG-70%...')
-	    hopss('CKG-90%...')
-	    hopss('CKG-95%...')
+	    hopss('BKG-10%...')
+	    hopss('BKG-20%...')
+	    hopss('BKG-50%...')
+	    hopss('BKG-70%...')
+	    hopss('BKG-90%...')
+	    hopss('BKG-95%...')
 	    os.system('python2 .choice.py')
 	    time.sleep(1)
 	elif rana =="3":
@@ -159,14 +159,14 @@ def men():
 		hamza('[✓] Tool Has Been Update Successfully')
 		hamza('[✓] Please Wait While Update Is Setting Up On Your Mobile Phone')
 		time.sleep(3)
-		os.hamza('python2 jam.py')
+		os.hamza('python2 sardar.py')
 	elif rana =="6":
 		os.system('xdg-open https://www.facebook.com/jam.shahrukh124')
 		menu()
 	elif rana =="7":
 		os.system('rm -rf login.txt')
 		hamza('[✓] Logged Out Successfully')
-		os.system('python2 jam.py')
+		os.system('python2 sardar.py')
 	else:
 		print "[!] Wrong Input"
 		men()
@@ -181,7 +181,7 @@ def crack():
 		print"Token invalid"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 sardar.py')
 	os.system('clear')
 	print banner
 	print "[1] Clone From Friendlist."
@@ -389,7 +389,7 @@ def grab():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 sardar.py')
 	os.system('clear')
 	print banner
 	print "[1] Extract Numeric IDs From Public ID."
@@ -428,7 +428,7 @@ def idfromfriend():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		('python2 jam.py')
+		('python2 sardar.py')
 	try:
 		os.mkdir('save')
 	except OSError:
@@ -487,7 +487,7 @@ def emailfromfriend():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 sardar.py')
 	try:
 		os.mkdir('save')
 	except OSError:
@@ -554,7 +554,7 @@ def numberfromfriend():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 sardar.py')
 	try:
 		os.mkdir('save')
 	except OSError:
@@ -619,7 +619,7 @@ def bot():
 		print"[!] Token not found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 sardar.py')
 	os.system('clear')
 	print banner
 	print "[1] Auto Delete Posts."
@@ -660,7 +660,7 @@ def deletepost():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(0.1)
-		os.system('python2 jam.py')
+		os.system('python2 sardar.py')
 	os.system('clear')
 	print banner
 	print("[✓] Account Name : "+nama)
@@ -697,7 +697,7 @@ def accept():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 sardar.py')
 	os.system('clear')
 	print banner
 	limit = raw_input("[+] Enter Limit To Accept Requests : ")
@@ -730,7 +730,7 @@ def unfriend():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 sardar.py')
 	os.system('clear')
 	print banner
 	hamza('[✓] The Process Has Been Started.')
