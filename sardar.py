@@ -61,10 +61,10 @@ banner = """
 \033[1;96m |_____\___\_\_|  \_\/_/    \_\
                                
 \033[1;91m-----------------------------------------------
-\033[1;92m➣ OWNER   : IQRA SARDAR
-\033[1;92m➣ Github  : https://github.com/iqra-sardar
-\033[1;92m➣ GANG    : BALOCH KILLER GANG
-\033[1;92m➣ Youtube : SUBSCRIBE CHANNEL
+\033[1;92m❤ OWNER   👉 IQRA SARDAR
+\033[1;92m❤ Github  👉 https://github.com/iqra-sardar
+\033[1;92m❤ GANG    👉 BALOCH KILLER GANG
+\033[1;92m❤ Youtube 👉 SUBSCRIBE CHANNEL
 \033[1;91m-----------------------------------------------"""
 # titik #
 def tik():
@@ -92,8 +92,8 @@ def tlogin():
 	if passw =="iqra":
 	    os.system('clear')
 	    print banner
-	    print "[✓] TOOL USERNAME: " +username+ " (correct)"
-	    print "[✓] TOOL PASSWORD: " +passw+ "  (correct)"
+	    print "[✓]\033[1;92m USERNAME: " +username+ " (correct)"
+	    print "[✓]\033[1;92m PASSWORD: " +passw+ "  (correct)"
 	    time.sleep(2)
 	else:
 	    print "[!] Invalid Password."
